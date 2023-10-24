@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fd5d985-b93a-4484-a5fa-d28bd968dcf0" name="Changes" comment="Added dependencies required">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/CustomPrompt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/FunkyPrompt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/ICustomPrompt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/IElementReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/LineEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/MsgElementReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/MsgIntReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/MsgLineReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/MsgReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="2fd5d985-b93a-4484-a5fa-d28bd968dcf0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lbg/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lbg/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +18,9 @@
         <option value="package-info" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="user_input" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -51,6 +42,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -92,6 +89,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +126,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added dependencies required" />
