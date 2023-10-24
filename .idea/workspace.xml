@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
+    <list default="true" id="2fd5d985-b93a-4484-a5fa-d28bd968dcf0" name="Changes" comment="Added dependencies required">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/CustomPrompt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/FunkyPrompt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/ICustomPrompt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/IElementReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/LineEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/MsgElementReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/MsgIntReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/MsgLineReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/MsgReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lbg/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lbg/App.java" afterDir="false" />
+    </list>
     <list default="true" id="2fd5d985-b93a-4484-a5fa-d28bd968dcf0" name="Changes" comment="ok" />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +30,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+
+
         <option value="Class" />
+
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2XDPsuuePdGISLzbjRRnTeADaBy" />
@@ -31,9 +56,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adam_\Work\vat_team\src\main\java" />
+      <recent name="C:\Users\adam_\Work\vat_team\src\main\java\com\lbg" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -74,15 +109,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698160888788</updated>
-      <workItem from="1698161047547" duration="324000" />
+      <workItem from="1698161047547" duration="1038000" />
     </task>
+    <task id="LOCAL-00001" summary="Added dependencies required">
+      <created>1698161452966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698161452966</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
     <option name="LAST_COMMIT_MESSAGE" value="ok" />
+
   </component>
 </project>
