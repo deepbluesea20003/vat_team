@@ -29,6 +29,7 @@ public class App
             switch (option){
                 case 1:
                     System.out.println("\nView Items:");
+                    allItems.display();
                     break;
                 case 2:
                     System.out.println("Option 2");

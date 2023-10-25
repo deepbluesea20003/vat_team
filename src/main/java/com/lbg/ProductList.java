@@ -11,7 +11,7 @@ public class ProductList {
         items = new ArrayList<>();
     }
     public void generate(){
-        //TODO: add 10 items to the list
+
         Random rand = new Random();
 
         for(int i =1; i<=10; i++){
@@ -20,17 +20,16 @@ public class ProductList {
             double vatRatePercentage = rand.nextDouble() * 100;
             String description= "Product Number " + i;
             boolean insuranceAvailable = rand.nextBoolean();
-            Product product = new Product(price,quantity,vatRatePercentage,description,insuranceAvailable);
+            String productID = String.valueOf(i);
+            Product product = new Product(productID,price,quantity,vatRatePercentage,description,insuranceAvailable);
             items.add(product);
 
         }
 
-
-
     }
 
-    public String toString(){
-        return "";
+    public void display(){
+        for(Product p : items) System.out.println(p);
     }
 
     public ArrayList<Product> getItems() {
