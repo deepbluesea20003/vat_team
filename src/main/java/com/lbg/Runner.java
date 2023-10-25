@@ -31,7 +31,7 @@ public class Runner
         while( !exitApp && lineRead != null )
         {
             for(IElementReader reader : itsReaders) {
-                lineRead = reader.readFromKeyboard(System.in);
+                lineRead = reader.readFromKeyboard(System.in, "...");
                 if (lineRead.equalsIgnoreCase("QUIT"))
                 {
                     exitApp = true;
