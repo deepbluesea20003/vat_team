@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fd5d985-b93a-4484-a5fa-d28bd968dcf0" name="Changes" comment="stop changing workplace!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lbg/ProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lbg/ProductList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

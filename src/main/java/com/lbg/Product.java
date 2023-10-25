@@ -1,6 +1,7 @@
 package com.lbg;
 public class Product
 {
+    private String productID;
     private double price;
     private int quantity;
 
@@ -11,12 +12,21 @@ public class Product
     private boolean insuranceAvailable;
 
 
-    public Product(double price, int quantity, double vatRate, String description, boolean insuranceAvailable) {
+    public Product(String productID, double price, int quantity, double vatRate, String description, boolean insuranceAvailable) {
+        this.productID = productID;
         this.price = price;
         this.quantity = quantity;
         this.vatRate = vatRate;
         this.description = description;
         this.insuranceAvailable = insuranceAvailable;
+    }
+
+    public String getProductID() {
+        return productID;
+    }
+
+    public void setProductID(String productID) {
+        this.productID = productID;
     }
 
     public double getPrice() {
@@ -61,4 +71,9 @@ public class Product
     }
 
     //TODO: Add a toString() option here to pretty print object
+    @Override
+    public String toString()
+    {
+        return productID + "  " + description + "  " + price + "  " + vatRate + "  " + quantity;
+    }
 }
