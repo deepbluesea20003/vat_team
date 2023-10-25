@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fd5d985-b93a-4484-a5fa-d28bd968dcf0" name="Changes" comment="stop changing workplace!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
+    <list default="true" id="2fd5d985-b93a-4484-a5fa-d28bd968dcf0" name="Changes" comment="Started adding in the UI for choosing an option, using the correct integer and string interfaces">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lbg/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lbg/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
@@ -119,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698227826660</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Getting started">
+      <created>1698229049593</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698229049593</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Started adding in the UI for choosing an option, using the correct integer and string interfaces">
+      <created>1698230456344</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698230456344</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +155,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added dependencies required" />
     <MESSAGE value="stop changing workplace!" />
-    <option name="LAST_COMMIT_MESSAGE" value="stop changing workplace!" />
+    <MESSAGE value="Getting started" />
+    <MESSAGE value="Started adding in the UI for choosing an option, using the correct integer and string interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started adding in the UI for choosing an option, using the correct integer and string interfaces" />
   </component>
 </project>
