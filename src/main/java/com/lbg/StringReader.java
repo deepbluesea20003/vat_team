@@ -1,6 +1,5 @@
 package com.lbg;
 
-import java.io.InputStream;
 import java.util.Scanner;
 
 public class StringReader extends MsgReader
@@ -11,12 +10,10 @@ public class StringReader extends MsgReader
     }
 
     @Override
-    public  String readFromKeyboard( InputStream is, String message )
+    public  String readFromKeyboard(Scanner sc, String message )
     {
-        Scanner theScanner = new Scanner( is );
-
         itsPrompt.prompt(message);
 
-        return theScanner.nextLine();
+        return sc.nextLine();
     }
 }

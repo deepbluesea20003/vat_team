@@ -1,8 +1,8 @@
 package com.lbg;
 
-import java.io.InputStream;
+import java.util.Scanner;
 
 public interface IElementReader
 {
-    public  String readFromKeyboard(InputStream is, String message);
+    public  String readFromKeyboard(Scanner sc, String message);
 }

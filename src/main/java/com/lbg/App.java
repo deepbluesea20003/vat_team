@@ -1,5 +1,6 @@
 package com.lbg;
 
+import java.io.InputStream;
 import java.util.Scanner;
 
 /**
@@ -24,7 +25,7 @@ public class App
         System.out.println("9: Quit");
         Scanner sc = new Scanner(System.in);
 
-        for(int option = 0; option!=9; option=sc.nextInt()){
+        for(int option = 0; option!=9; option=Integer.parseInt( ir.readFromKeyboard(sc, "Option: "))){
             switch (option){
                 case 1:
                     System.out.println("\nView Items:");

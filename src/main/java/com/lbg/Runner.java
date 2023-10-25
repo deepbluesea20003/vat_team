@@ -22,26 +22,26 @@ public class Runner
     
     public  ArrayList<LineEntry>    run()
     {
-        String lineRead = "";
-        boolean exitApp = false;
-        int lineNo = 0;
+//        String lineRead = "";
+//        boolean exitApp = false;
+//        int lineNo = 0;
         ArrayList lines = new ArrayList(10);
-        
-
-        while( !exitApp && lineRead != null )
-        {
-            for(IElementReader reader : itsReaders) {
-                lineRead = reader.readFromKeyboard(System.in, "...");
-                if (lineRead.equalsIgnoreCase("QUIT"))
-                {
-                    exitApp = true;
-                    break;
-                }
-                LineEntry le = new LineEntry(++lineNo, lineRead);
-                lines.add(le);                    
-            }
-        }
-        
+//
+//
+//        while( !exitApp && lineRead != null )
+//        {
+//            for(IElementReader reader : itsReaders) {
+//                lineRead = reader.readFromKeyboard(System.in, "...");
+//                if (lineRead.equalsIgnoreCase("QUIT"))
+//                {
+//                    exitApp = true;
+//                    break;
+//                }
+//                LineEntry le = new LineEntry(++lineNo, lineRead);
+//                lines.add(le);
+//            }
+//        }
+//
         return lines;
     }
 }
