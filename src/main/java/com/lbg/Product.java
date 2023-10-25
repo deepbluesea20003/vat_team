@@ -70,7 +70,6 @@ public class Product
         this.insuranceAvailable = insuranceAvailable;
     }
 
-    //TODO: Add a toString() option here to pretty print object
     @Override
     public String toString()
     {
