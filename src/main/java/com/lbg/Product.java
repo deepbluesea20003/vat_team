@@ -47,4 +47,6 @@ public class Product
     public void setInsuranceAvailable(boolean insuranceAvailable) {
         this.insuranceAvailable = insuranceAvailable;
     }
+
+    //TODO: Add a toString() option here to pretty print object
 }
