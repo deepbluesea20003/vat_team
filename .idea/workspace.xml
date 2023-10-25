@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
-    <list default="true" id="2fd5d985-b93a-4484-a5fa-d28bd968dcf0" name="Changes" comment="Added dependencies required">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/CustomPrompt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/FunkyPrompt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/ICustomPrompt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/IElementReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/LineEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/MsgElementReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/MsgIntReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/MsgLineReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/MsgReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/Runner.java" afterDir="false" />
+    <list default="true" id="2fd5d985-b93a-4484-a5fa-d28bd968dcf0" name="Changes" comment="ok">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lbg/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lbg/App.java" afterDir="false" />
     </list>
-    <list default="true" id="2fd5d985-b93a-4484-a5fa-d28bd968dcf0" name="Changes" comment="ok" />
-
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,10 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-
-
         <option value="Class" />
-
       </list>
     </option>
   </component>
@@ -124,10 +107,8 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
     <option name="LAST_COMMIT_MESSAGE" value="ok" />
-
   </component>
 </project>
