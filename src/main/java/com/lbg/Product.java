@@ -6,13 +6,16 @@ public class Product
 
     private double vatRate;
 
+    private String description;
+
     private boolean insuranceAvailable;
 
 
-    public Product(double price, int quantity, double vatRate, boolean insuranceAvailable) {
+    public Product(double price, int quantity, double vatRate, String description, boolean insuranceAvailable) {
         this.price = price;
         this.quantity = quantity;
         this.vatRate = vatRate;
+        this.description = description;
         this.insuranceAvailable = insuranceAvailable;
     }
 
@@ -32,12 +35,21 @@ public class Product
         this.quantity = quantity;
     }
 
+
     public double getVatRate() {
         return vatRate;
     }
 
     public void setVatRate(double vatRate) {
         this.vatRate = vatRate;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public boolean isInsuranceAvailable() {
